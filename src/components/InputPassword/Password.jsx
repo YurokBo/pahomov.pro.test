@@ -3,7 +3,7 @@ import s from './Password.module.css';
 
 const Password = () => {
     return (
-        <div>
+        <div className={s.inputFieldPass}>
             <input type="text" value='Пароль*'/>
         </div>
 

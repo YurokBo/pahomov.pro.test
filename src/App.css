@@ -1,8 +1,16 @@
+/*.App {*/
+/*    display: grid;*/
+/*    grid-template-columns: 380px;*/
+
+/*    padding-left: 530px;*/
+/*    padding-top: 241px;*/
+
+/*}*/
+
 .App {
-    display: grid;
-    grid-template-columns: 380px;
-
-    padding-left: 530px;
-    padding-top: 241px;
-
+    position: absolute;
+    width: 380px;
+    height: 541px;
+    left: 530px;
+    top: 241px;
 }

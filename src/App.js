@@ -8,6 +8,7 @@ import Checkbox from "./components/Checkbox/Checkbox";
 import ForgotPassword from "./components/ForgotPassQuestion/ForgotPassword";
 import Registration from "./components/Registration/Registration";
 import Copyright from "./components/Copyright/Copyright";
+import LogIn from "./components/ButtonLogIn/LogIn";
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
             <Post/>
             <Password/>
             <Checkbox/>
-            <button>Войти в аккаунт</button>
+            <LogIn />
             <div>
                 <ForgotPassword />
                 <Registration/>

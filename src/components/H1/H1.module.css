@@ -1,0 +1,26 @@
+h1 {
+    /* Вход в аккаунт */
+
+
+    position: absolute;
+    height: 18px;
+    left: 1px;
+    right: 0px;
+    top: 127px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 18px;
+    /* identical to box height, or 75% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.16px;
+
+    /* Black 87% */
+
+    color: rgba(0, 0, 0, 0.87);
+}

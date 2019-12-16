@@ -3,7 +3,7 @@ import s from './Checkbox.module.css';
 
 const Checkbox = () => {
     return (
-        <div>
+        <div className={s.checkbox}>
             <input type="checkbox"/>
             <div>Запомнить меня</div>
         </div>

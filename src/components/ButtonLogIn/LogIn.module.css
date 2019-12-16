@@ -1,0 +1,14 @@
+button {
+    /* button-bg */
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 5px;
+    bottom: 5px;
+
+    /* Blue Primary */
+
+    background: #2196F3;
+    border-radius: 4px;
+}
