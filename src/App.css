@@ -1,0 +1,8 @@
+.App {
+    display: grid;
+    grid-template-columns: 380px;
+
+    padding-left: 530px;
+    padding-top: 241px;
+
+}
