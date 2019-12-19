@@ -1,16 +1,29 @@
-/*.App {*/
-/*    display: grid;*/
-/*    grid-template-columns: 380px;*/
-
-/*    padding-left: 530px;*/
-/*    padding-top: 241px;*/
-
-/*}*/
-
-.App {
-    position: absolute;
+.app-wrapper {
+    display: grid;
     width: 380px;
-    height: 541px;
-    left: 530px;
-    top: 241px;
+    grid-template-areas: 'i' 'e' 'm' 'p' 'rm' 'b' 'q' 'f';
+    grid-template-columns: auto;
+    grid-template-rows: 8fr;
+    font-family: Roboto, sans-serif;
+    margin: 241px auto;
+    padding: 0;
+
+
 }
+
+/*.app-wrapper .app-wrapper-mail {
+    grid-area: rm;
+
+}*/
+
+.app-wrapper-checkbox {
+    /*display: grid;
+    grid-template-rows: 1fr 1fr;
+    border: solid red;*/
+
+}
+
+.icon {
+    justify-self: center;
+}
+

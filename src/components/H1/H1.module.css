@@ -1,26 +1,14 @@
-h1 {
+.intoAccaunt {
     /* Вход в аккаунт */
-
-
-    position: absolute;
-    height: 18px;
-    left: 1px;
-    right: 0px;
-    top: 127px;
-
-    font-family: Roboto;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.16px;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 18px;
-    /* identical to box height, or 75% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.16px;
-
-    /* Black 87% */
-
+    line-height: 75%;
+    /*!* Black 87% *!*/
     color: rgba(0, 0, 0, 0.87);
+
 }
