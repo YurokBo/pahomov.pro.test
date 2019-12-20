@@ -4,7 +4,7 @@ import s from './Registration.module.css';
 const Registration = () => {
     return (
         <div>
-            <div>Еще нет аккаунта? Регистрация</div>
+            <a href='#'>Еще нет аккаунта? Регистрация</a>
         </div>
 
 
