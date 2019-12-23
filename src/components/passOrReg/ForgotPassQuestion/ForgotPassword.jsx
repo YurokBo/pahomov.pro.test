@@ -3,8 +3,8 @@ import s from './ForgotPassword.module.css';
 
 const ForgotPassword = () => {
     return (
-        <div>
-            <a href='#'>Забыли пароль?</a>
+        <div className={s.forgotPass}>
+            <a  href='#'>Забыли пароль?</a>
         </div>
 
 

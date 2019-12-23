@@ -4,7 +4,7 @@ import s from './Copyright.module.css';
 const Copyright = () => {
     return (
         <div>
-            Copyright&copy; Ваш сайт 2019.
+            <p className={s.copyright}>Copyright&copy; Ваш сайт 2019.</p>
         </div>
 
 

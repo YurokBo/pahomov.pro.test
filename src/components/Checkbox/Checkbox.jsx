@@ -4,12 +4,12 @@ import s from './Checkbox.module.css';
 const Checkbox = () => {
     return (
         <div>
-
-            <label>
-                <input className={s.checkbox} type="checkbox"/>
-                Запомнить меня
-            </label>
-
+            <div className={s.checkBoxWrapper}>
+                <input type="checkbox" className={s.checkbox}/>
+                <label>
+                    <p className={s.savePass} s>Запомнить меня</p>
+                </label>
+            </div>
         </div>
     );
 }

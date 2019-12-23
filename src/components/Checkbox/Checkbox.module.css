@@ -1,44 +1,36 @@
-label {
-    /*!* Black 54% *!*/
+.checkBoxWrapper {
+    display: grid;
+    grid-template-columns: 24px auto;
+    align-items: center;
+
+}
+
+input[type="checkbox"]  {
+    width: 18px;
+    height: 18px;
+    border: 2px solid rgba(0, 0, 0, 0.54);
+    box-sizing: border-box;
+    padding: 3px;
+    
+
+    cursor: pointer;
+    /*box-shadow: inset 0 2px 3px rgba(0,0,0,.2), 0 0 0 3px rgba(255,255,0,.7);*/
+
+}
+
+.savePass {
+    margin-left: 10px;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-    /*!* identical to box height, or 119% *!*/
-    /*!* Black 87% *!*/
-    color: rgba(0, 0, 0, 0.87);
+    /* identical to box height, or 119% */
 
-}
+    /*display: flex;*/
+    align-items: center;
 
-.checkbox {
-    border: 2px solid rgba(0, 0, 0, 0.54);
-    box-sizing: border-box;
-    width: 24px;
-    height: 24px;
-    margin: 3px;
-
-    background-color: red;
-}
-
-
-/*
-.checkbox{
-    !* Black 54% *!
-    border: 2px solid rgba(0, 0, 0, 0.54);
-    box-sizing: border-box;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    !* identical to box height, or 119% *!
-
-
-
-    !* Black 87% *!
+    /* Black 87% */
 
     color: rgba(0, 0, 0, 0.87);
-
-}*/
+}
